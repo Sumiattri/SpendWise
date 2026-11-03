@@ -1,0 +1,91 @@
+export const expenseCategories = [
+  { name: 'Food & Dining', color: '#4c9279', icon: 'utensils' },
+  { name: 'Transportation', color: '#7d9dc1', icon: 'car' },
+  { name: 'Shopping', color: '#aa94c7', icon: 'bag' },
+  { name: 'Entertainment', color: '#d5a568', icon: 'play' },
+  { name: 'Bills & Utilities', color: '#88aaa0', icon: 'home' },
+  { name: 'Healthcare', color: '#c58891', icon: 'heart' },
+];
+
+export const incomeCategories = ['Salary', 'Freelance', 'Other income'];
+export const paymentMethods = [
+  'Debit card',
+  'Credit card',
+  'Bank transfer',
+  'Cash',
+];
+
+export const sampleTransactions = [
+  {
+    id: 'tx-001',
+    title: 'Monthly salary',
+    category: 'Salary',
+    amount: 5200,
+    date: '2026-11-01',
+    type: 'income',
+    paymentMethod: 'Bank transfer',
+  },
+  {
+    id: 'tx-002',
+    title: 'Apartment rent',
+    category: 'Bills & Utilities',
+    amount: 800,
+    date: '2026-11-01',
+    type: 'expense',
+    paymentMethod: 'Bank transfer',
+  },
+  {
+    id: 'tx-003',
+    title: 'Whole Foods Market',
+    category: 'Food & Dining',
+    amount: 230,
+    date: '2026-11-03',
+    type: 'expense',
+    paymentMethod: 'Debit card',
+  },
+  {
+    id: 'tx-004',
+    title: 'Uber ride',
+    category: 'Transportation',
+    amount: 40,
+    date: '2026-11-05',
+    type: 'expense',
+    paymentMethod: 'Credit card',
+  },
+  {
+    id: 'tx-005',
+    title: 'Nike running shoes',
+    category: 'Shopping',
+    amount: 130,
+    date: '2026-11-08',
+    type: 'expense',
+    paymentMethod: 'Credit card',
+  },
+  {
+    id: 'tx-013',
+    title: 'Monthly salary',
+    category: 'Salary',
+    amount: 5200,
+    date: '2026-10-01',
+    type: 'income',
+    paymentMethod: 'Bank transfer',
+  },
+  {
+    id: 'tx-014',
+    title: 'Apartment rent',
+    category: 'Bills & Utilities',
+    amount: 800,
+    date: '2026-10-01',
+    type: 'expense',
+    paymentMethod: 'Bank transfer',
+  },
+  {
+    id: 'tx-015',
+    title: 'Weekend groceries',
+    category: 'Food & Dining',
+    amount: 110,
+    date: '2026-10-24',
+    type: 'expense',
+    paymentMethod: 'Debit card',
+  },
+];
